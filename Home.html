@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">	<script src="https://kit.fontawesome.com/a6aca3ab33.js" crossorigin="anonymous"></script>    
+</head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+}
+nav{
+  position: fixed;
+  background: hsla(144, 32%, 66%, 0.4);
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight:500;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 8px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: hsla(0, 0%, 0%, 0.1);
+  color: black;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+ 
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+ 
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#contact{
+    text-align: center;
+    background-color: #683aa4;
+    color: white;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+body{
+	background: hsla(92, 0%, 86%, 0.5);
+}
+footer{
+	width: auto;
+} 
+</style>
+    <body >
+<nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">KD Nadz</a>
+      </div>
+      <ul>
+        <li><a href="Webpage.html">Main</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<section id="about">
+<br><br>
+<br><br>
+<br><br>
+ 
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col">
+                          <img src="top.jpg" alt="pic" class="img-fluid"/>
+                      </div>
+                      <div class="col">
+                           <h1 style="color: grey;">Hello and Welcome!</h1>
+                           <h3> To KD's Laptop Store</h3>
+  					<h4> A quality price for a quality and best laptop</h4>
+                          <button onclick="location.href='#services'" class="btn btn-dark btn-lg">Store</button>
+                    </div>
+                  </div>
+              </div>
+          </section>
+<br><br>
+<br><br>
+<br><br>
+          <section id="services">
+<h1 style="text-align:center; color: grey;" > My Products </h1>
+<div class="row">
+  <div class="col-3">
+    <div class="card">
+      <div class="container">
+	<img src="first.jpg" alt="1st" style="width:100%">
+        <h5> ASUS ROG Zephyrus G14 GA401 </h5>
+        <p> Screen size<br>14"</br>|Processor Manufacturer<br>AMD</br></p>
+        <p style="color: red;"> ₱ 41,000.00 - 244,727.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card">
+      <div class="container">
+<img src="second.jpg" alt="2nd" style="width:100%">
+        <h5> ASUS X415</h5>
+        <p> Screen size<br>14"</br>|Processor Manufacturer<br>Intel</br></p>
+        <p style="color: red;"> ₱ 29,748.00 - 35,999.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-3">
+    <div class="card">
+      <div class="container">
+<img src="third.jpg" alt="3rd" style="width:100%">
+        <h5> HP Pavilion </h5>
+        <p> Screen size<br>14"</br>|Processor Manufacturer<br>Intel</br></p>
+        <p style="color: red;"> ₱ 25,000.00 - 72,375.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-3">
+    <div class="card">
+      <div class="container">
+<img src="fourth.jpg" alt="4th" style="width:100%">
+        <h5> DELL XPS 13 (2019)</h5>
+        <p> Screen size<br>13.3"</br>|Battery Life<br>11hr</br></p>
+        <p style="color: red;"> ₱ 34,000.00 - 145,669.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+<div class="col-3">
+    <div class="card">
+      <div class="container">
+	<img src="m..jpg" alt="5h" style="width:100%">
+        <h5> Microsoft Surface Pro * </h5>
+        <p> Screen size<br>13"</br>|Graphic Card<br>Intel®Iris®Xe Graphics</br></p>
+        <p style="color: red;"> ₱ 61,900.00 - 201,820.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+<div class="col-3">
+    <div class="card">
+      <div class="container">
+	<img src="o.jpg" alt="6tt" style="width:100%">
+        <h5> Infinix INBook X1 </h5>
+        <p> Screen size<br>14"</br>|Processor Manufacturer<br>Intel</br></p>
+        <p style="color: red;"> ₱ 21,499.00 - 41,990.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+<div class="col-3">
+    <div class="card">
+      <div class="container">
+	<img src="l.jpg" alt="7th" style="width:100%">
+        <h5> Lenovo Legion 5 Pro </h5>
+        <p> Screen size<br>16"</br>|Processor Manufacturer<br>AMD</br></p>
+        <p style="color: red;"> ₱ 74,900.00 - 185,600.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+<div class="col-3">
+    <div class="card">
+      <div class="container">
+	<img src="a.jpg" alt="8th" style="width:100%">
+        <h5> Acer Spin 5 </h5>
+        <p> Screen size<br>14"</br>|Processor Manufacturer<br>Intel</br></p>
+        <p style="color: red;"> ₱ 127,132.00 </p>
+        <p><button class="button">Buy</button></p>
+        <p><button class="button">Add to cart</button></p>
+      </div>
+    </div>
+  </div>
+         </section>
+<br><br>
+<br><br>
+          <section id="contact">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col">
+				
+                          <img src="c.jpg" alt="pic" class="img-fluid"/>
+                      </div>
+                      <div class="col">
+<h1>Contact me</h1>
+                          <form>
+  <div class="form-outline mb-4">
+    <input type="text" id="form4Example1" class="form-control" />
+    <label class="form-label" for="form4Example1">Name</label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input type="email" id="form4Example2" class="form-control" />
+    <label class="form-label" for="form4Example2">Email address</label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+    <label class="form-label" for="form4Example3">Message</label>
+  </div>
+
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+    <label class="form-check-label" for="form4Example4">
+      Send me a copy of this message
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+</form>
+                    </div>
+                  </div>
+              </div>
+          </section>
+<br><br>
+<br><br>
+		<div class="row align-items-center">
+                      <div class="col">
+
+   <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+    <div class="container">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3">
+            <h6 class="text-uppercase mb-3 font-weight-bold">
+              KDNadz Company
+            </h6>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">ASUS</a>
+            </p>
+            <p>
+              <a class="text-white">HP</a>
+            </p>
+            <p>
+              <a class="text-white">DELL</a>
+            </p>
+            <p>
+              <a class="text-white">Microsoft Surface </a>
+            </p>
+		 <p>
+              <a class="text-white">Infinix </a>
+            </p>
+		 <p>
+              <a class="text-white">Lenovo</a>
+            </p>
+		<p>
+              <a class="text-white">Acer</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Brgy. 1, Kabankalan City Negros Occidental</p>
+            <p><i class="fas fa-envelope mr-3"></i> karldavenady@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 977 68** ***</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hr">
+
+      <section class="p-3">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2022 Copyright:
+              <a class="text-white" href="#">KDNadz.com</a>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+		<a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://www.linkedin.com/in/karl-dave-nadar-653bb324a/"><i class="fab fa-linkedin"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://web.facebook.com/KarlDaveNadar2332?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1"class="text-white" role="button" href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white"role="button" href="https://www.instagram.com/krl_dv/?hl=en"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+  </div>
+</div>
+</body>
+</html>
